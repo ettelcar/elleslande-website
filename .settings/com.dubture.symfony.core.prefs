@@ -1,0 +1,4 @@
+com.dubture.symfony.coreconsole=app/console
+com.dubture.symfony.corephp_executable=C\:\\Program Files (x86)\\EasyPHP-DevServer-14.1VC9\\binaries\\php\\php_runningversion\\php.exe
+com.dubture.symfony.coreuse_project_phar=false
+eclipse.preferences.version=1
