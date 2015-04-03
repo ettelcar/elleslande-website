@@ -1,0 +1,3 @@
+elleslande_blog_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ElleslandeBlogBundle:Default:index }

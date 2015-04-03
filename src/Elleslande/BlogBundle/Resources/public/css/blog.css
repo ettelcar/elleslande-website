@@ -1,0 +1,96 @@
+div#header
+{
+
+}
+div#content
+{
+	overflow: hidden;
+
+}
+div#sidebar
+{
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	min-width: 250px;
+}
+div#sidebar *
+{
+	padding: 0px;
+	margin: 0px;
+}
+div#sidebar li
+{
+	list-style-image: url('../images/fleche.svg');
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+	padding-left : 40px;
+	background-image: url('../images/parchomilieu.png');
+	background-size: cover;
+	background-origin: border-box;
+}
+div#sidebar ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+div#sidebar div#partiesup
+{
+	height: 50px;
+	background-image: url('../images/parchohaut.png');
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	min-height:70px;
+}
+div#sidebar div#partieinf
+{
+	height: 50px;
+	background-image: url('../images/parchobas.png');
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	min-height:70px;
+
+}
+div#sidebar a
+{
+	color: #000000;
+	text-decoration: none;
+}
+div#header
+{
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	min-height:100px;
+	min-width:400px;
+	border: solid;
+	background-color: #aaaaaa;
+}
+div#header div#logo
+{
+	background-image: url('../images/blason.svg');
+	background-size: 200px 164px;
+	width: 200px;
+	height: 164px;
+}
+div#header div#banniere
+{
+}
+
+div#content
+{
+	margin: 5px;
+	padding: 5px;
+	background-color: #aaaaaa;
+	min-height: 300px;
+	border-style: outset;
+}
+
+body
+{
+
+	background-image: url('../images/fondbois.jpg');
+}

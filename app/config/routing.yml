@@ -1,0 +1,4 @@
+elleslande_blog:
+    resource: "@ElleslandeBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+

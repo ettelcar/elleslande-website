@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	
+	{#<link href="{{ asset('bundles/elleslandeblog/css/blog.css') }}" rel="stylesheet" type="text/css" />#}
+	 {% stylesheets 'bundles/elleslandeblog/css/*' filter="cssrewrite"%}
+	<link href="{{ asset_url }}" rel="stylesheet" type="text/css" />
+	{% endstylesheets %} 
+{% endblock %}
+{% block body %}
+	<div id="header">
+		<div id="logo">
+		</div>
+		<div id="banniere">
+		</div>
+	</div>
+	<div id="sidebar">
+		{% block sidebar %}
+			<div id='partiesup'></div>
+			<ul>
+				<li><a href="/">Accueil</a></li>
+				<li><a href="/presentation">Présentation</a></li>
+				<li><a href="/forum">Forum</a></li>
+			</ul>
+			<div id='partieinf'></div>
+		{% endblock %}
+	</div>
+	<div id="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+{% endblock %}
+
+
