@@ -52,11 +52,17 @@ div#sidebar div#partieinf
 	margin: 0px;
 	padding: 0px;
 	min-height:70px;
+	margin-bottom: 20px;
 
 }
 div#sidebar a
 {
 	color: #000000;
+	text-decoration: none;
+}
+div#sidebar a:hover
+{
+	color: #ee0000;
 	text-decoration: none;
 }
 div#header
@@ -68,6 +74,7 @@ div#header
 	min-width:400px;
 	border: solid;
 	background-color: #aaaaaa;
+	border-radius: 10px;
 }
 div#header div#logo
 {
@@ -87,7 +94,37 @@ div#content
 	background-color: #aaaaaa;
 	min-height: 300px;
 	border-style: outset;
+	border-radius: 10px;
 }
+div#content .bold
+{
+	font-weight: bold;
+}
+div#content .italic
+{
+	font-style: italic;
+}
+div#content .underline
+{
+	text-decoration: underline;
+}
+div#content .taille50
+{
+	font-size: xx-small;
+}
+div#content .taille85
+{
+	font-size: x-small;
+}
+div#content .taille150
+{
+	font-size: x-large;
+}
+div#content .taille200
+{
+	font-size: xx-large;
+}
+
 
 body
 {

@@ -1,3 +1,11 @@
-elleslande_blog_homepage:
-    path:     /hello/{name}
+accueil:
+    path: /
     defaults: { _controller: ElleslandeBlogBundle:Default:index }
+
+presentation:
+    path: /presentation
+    defaults: { _controller: ElleslandeBlogBundle:Default:presentation }
+
+forum:
+    path: /forum
+    defaults: { _controller: ElleslandeBlogBundle:Default:forum }

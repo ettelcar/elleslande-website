@@ -19,11 +19,12 @@
 		{% block sidebar %}
 			<div id='partiesup'></div>
 			<ul>
-				<li><a href="/">Accueil</a></li>
-				<li><a href="/presentation">Présentation</a></li>
-				<li><a href="/forum">Forum</a></li>
+				<li><a href="{{ path('accueil') }}">Accueil</a></li>
+				<li><a href="{{ path('presentation') }}">Présentation</a></li>
+				<li><a href="{{ path('forum') }}">Forum</a></li>
 			</ul>
 			<div id='partieinf'></div>
+			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=consulatdelleslande%40gmail.com&amp;color=%2329527A&amp;src=gpds7lg8iutar102elon6oo83s%40group.calendar.google.com&amp;color=%23B1365F&amp;src=1pjsn9li0j3avfiqglfis3ac88%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FParis" style=" border-width:0 " width="250" height="400" frameborder="0" scrolling="no"></iframe>
 		{% endblock %}
 	</div>
 	<div id="content">

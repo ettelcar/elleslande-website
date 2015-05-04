@@ -1,10 +1,9 @@
 {% extends 'ElleslandeBlogBundle:Default:base.html.twig' %}
 
 {% block content %}
-	Hello {{ name }}!
-	{{ dump(posts) }}
 {% for item in posts %}
-{{ item.post_subject }}
+<h1>{{ item.post_subject|raw }}</h1>
+<p>{{ item.post_text|raw }}</p>
 
 {% endfor %}
 {# 	{{ posts.subject }}, {{ posts.text }} écrit par #}
